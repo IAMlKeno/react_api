@@ -1,0 +1,26 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "React api project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack.config.js",
+    "watch": "webpack --watch --config ./webpack.config.js",
+    "prod": "webpack -p --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elkeno Jones",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -1,0 +1,4 @@
+# Custom module library for general purposes.
+react_api_example:
+  js:
+    js/dist/index.js: { preprocess: FALSE }

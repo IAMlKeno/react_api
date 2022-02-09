@@ -1,0 +1,7 @@
+name: React API Example
+type: module
+description: Provides a block containing content rendered by React using api calls.
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - jsonapi
